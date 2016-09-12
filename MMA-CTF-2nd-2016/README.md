@@ -21,7 +21,9 @@ $ nc ppc1.chal.ctf.westerns.tokyo 31111
     samples.7z Server connection examples.
 -------------------------------------------------------------------------------------
 
-一開始還不知道題目有提供語Server 互動的範例，所以立馬就nc連過去：
+題目有兩小題共30個例子：
+1. You can get flag 1 on case 1. 
+2. You can get flag 2 on case 30.
 ```
 ais@ais-VirtualBox:~/Desktop/samples/samples$ nc ppc1.chal.ctf.westerns.tokyo 31111
 Your task is to make a palindrome string by rearranging and concatenating given words.
@@ -46,4 +48,8 @@ Input: 5 sffsc b xut bskqtuxbc qksb
 
 5 表示有5個 strings ，於是答案為："bskqtuxbc sffsc b xut qksb"
 ![img](1.jpg)
-Answer:```TWCTF{Charisma_School_Captain}```
+Flag 1:```TWCTF{Charisma_School_Captain}```
+
+![img](2.jpg)
+Flag 2:``````
+
