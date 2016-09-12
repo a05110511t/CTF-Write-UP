@@ -1,6 +1,4 @@
-#README.md
-
-Make a Palindrome! 
+#Make a Palindrome! 
 
 Problem
 ======================================================================================
@@ -24,7 +22,6 @@ $ nc ppc1.chal.ctf.westerns.tokyo 31111
 -------------------------------------------------------------------------------------
 
 一開始還不知道題目有提供語Server 互動的範例，所以立馬就nc連過去：
-=======================
 ```
 ais@ais-VirtualBox:~/Desktop/samples/samples$ nc ppc1.chal.ctf.westerns.tokyo 31111
 Your task is to make a palindrome string by rearranging and concatenating given words.
