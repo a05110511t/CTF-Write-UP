@@ -53,5 +53,6 @@ Flag 1:```TWCTF{Charisma_School_Captain}```
 
 ![img](2.jpg)
 
-Flag 2:``````
+Flag 2:```TWCTF{Hiyokko_Tsuppari}```
 
+#程式內有註解
