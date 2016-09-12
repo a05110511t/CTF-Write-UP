@@ -33,7 +33,7 @@ for case in range(0, 30):
     #def rotate(l,n):
     #    return l[n:] + l[:n]
     #print len(''.join(words))
-    for i in range(0, 7257601):
+    for i in range(0, 7257601): # 這邊在readme說明
 	#print 'random:'
 	shuffle(words) #將list的元素排序
 #	s = sorted(words, key=lambda x: x, reverse = True)
