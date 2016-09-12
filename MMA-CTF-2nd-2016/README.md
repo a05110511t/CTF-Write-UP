@@ -22,8 +22,11 @@ $ nc ppc1.chal.ctf.westerns.tokyo 31111
 -------------------------------------------------------------------------------------
 
 題目有兩小題共30個例子：
+
 1. You can get flag 1 on case 1. 
+
 2. You can get flag 2 on case 30.
+
 ```
 ais@ais-VirtualBox:~/Desktop/samples/samples$ nc ppc1.chal.ctf.westerns.tokyo 31111
 Your task is to make a palindrome string by rearranging and concatenating given words.
