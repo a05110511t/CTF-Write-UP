@@ -23,9 +23,9 @@ $ nc ppc1.chal.ctf.westerns.tokyo 31111
     samples.7z Server connection examples.
 -------------------------------------------------------------------------------------
 
-一開始還不知道題目有提供語Server 互動的範例，
-所以立馬就nc連過去：
-'''
+一開始還不知道題目有提供語Server 互動的範例，所以立馬就nc連過去：
+-----------------------------------------------------------------
+"""
 ais@ais-VirtualBox:~/Desktop/samples/samples$ nc ppc1.chal.ctf.westerns.tokyo 31111
 Your task is to make a palindrome string by rearranging and concatenating given words.
 
@@ -40,6 +40,13 @@ Example Answer: ab c cba
 Let's play!
 
 Case: #1
-Input: 5 gujvxfqoujod ojuoqfxvjug dd si is
-'''
+Input: 5 sffsc b xut bskqtuxbc qksb
+"""
 
+觀察一陣子後發現因是回文題，需要照著題目格式，重新排列組合為可回文的順序。
+
+像是這題：
+
+5 表示有5個 strings ，於是答案為："bskqtuxbc sffsc b xut qksb"
+
+Answer:```TWCTF{Charisma_School_Captain}```
