@@ -55,4 +55,4 @@ Flag 1:```TWCTF{Charisma_School_Captain}```
 
 Flag 2:```TWCTF{Hiyokko_Tsuppari}```
 
-#程式內有註解
+code內有註解
