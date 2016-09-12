@@ -45,7 +45,7 @@ Case: #1
 Input: 5 sffsc b xut bskqtuxbc qksb
 ```
 
-觀察一陣子後發現因是回文題，需要照著題目格式，重新排列組合為可回文的順序。
+觀察一陣子後發現是回文，需要照著題目格式，重新排列組合為可回文的順序後，即可過關。
 
 像是這題：
 
@@ -58,4 +58,4 @@ Flag 1:```TWCTF{Charisma_School_Captain}```
 
 Flag 2:```TWCTF{Hiyokko_Tsuppari}```
 
-code內有註解
+code內有註解。
