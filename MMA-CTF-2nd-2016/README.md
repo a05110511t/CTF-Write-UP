@@ -48,7 +48,8 @@ Input: 5 sffsc b xut bskqtuxbc qksb
 
 5 表示有5個 strings ，於是答案為："bskqtuxbc sffsc b xut qksb"
 ![img](1.jpg)
-```Flag 1:TWCTF{Charisma_School_Captain}```
+
+Flag 1:```TWCTF{Charisma_School_Captain}```
 
 ![img](2.jpg)
 
