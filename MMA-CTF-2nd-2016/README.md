@@ -45,5 +45,5 @@ Input: 5 sffsc b xut bskqtuxbc qksb
 像是這題：
 
 5 表示有5個 strings ，於是答案為："bskqtuxbc sffsc b xut qksb"
-
+![img](1.jpg)
 Answer:```TWCTF{Charisma_School_Captain}```
