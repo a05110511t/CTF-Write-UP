@@ -13,7 +13,7 @@ Example Answer: ab c cba
 
 You have to connect to ppc1.chal.ctf.westerns.tokyo:31111(TCP) to answer the problem.
 
-```$ nc ppc1.chal.ctf.westerns.tokyo 31111```
+$ nc ppc1.chal.ctf.westerns.tokyo 31111
 
     Time limit is 3 minutes.
     The maximum number of words is 10.
