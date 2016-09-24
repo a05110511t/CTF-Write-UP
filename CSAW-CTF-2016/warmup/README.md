@@ -6,13 +6,13 @@
 
 ![img](1.jpg)
 
-開始找overflow的長度
+Find length of the overflow.
 
 -> 72
 
-於是在72個"a"後面塞IDA pro看到的位址：400611，
+於是在72個"a"後面塞IDA pro看到的位址：0x400611，
 
-題目秀出的也可以。
+also 0x40060d.
 
 ![img](warmup.jpg)
 
