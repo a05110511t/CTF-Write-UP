@@ -1,6 +1,6 @@
 #warmup
 
-基本的　buffer overflow 題，
+基本的buffer overflow 題，
 
 開IDA pro看
 
@@ -14,3 +14,4 @@
 
 題目秀出的也可以。
 
+~[img](warmup.jpg)
