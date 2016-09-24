@@ -14,4 +14,4 @@
 
 題目秀出的也可以。
 
-~[img](warmup.jpg)
+![img](warmup.jpg)
