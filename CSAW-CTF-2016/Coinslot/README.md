@@ -27,7 +27,9 @@ correct!
 $0.08
 $10,000 bills: 
 ```
+
 --------------------------------------------------
+
 若是0.06元，則
 ```
 nickels (5c): 1
@@ -35,5 +37,9 @@ pennies (1c): 1
 ```
 
 
+![img](1.jpg)
+
+
+The flag is: ```flag{started-from-the-bottom-now-my-whole-team-fucking-here}```
 
 
