@@ -8,7 +8,7 @@
 ais@ais-VirtualBox:~$ nc misc.chal.csaw.io 8000
 ```
 $0.01
-$10,000 bills: ```
+$10,000 bills: 
 $5,000 bills: 0
 $1,000 bills: 0
 $500 bills: 0
