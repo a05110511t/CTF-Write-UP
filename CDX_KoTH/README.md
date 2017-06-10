@@ -1,10 +1,20 @@
-`CDX網站攻防Write Up`
+# CDX網站攻防Write Up
+
+
 共100台server散落在x.x.x.1~200
+
+
 觀察大概有20種題目，每種都有5題
+
+
 拿分方式：把自己對五flag寫進首頁index.html
+
+
 主辦輪巡15秒一次->1台1分鐘1分
 
 隊名：90CM (4th)
+
+
 共打下11台server
 
 
