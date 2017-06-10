@@ -1,43 +1,85 @@
-CDXºô¯¸§ð¨¾Write Up
-¦@100¥xserver´²¸¨¦bx.x.x.1~200
-Æ[¹î¤j·§¦³20ºØÃD¥Ø¡A¨CºØ³£¦³5ÃD
-®³¤À¤è¦¡¡G§â¦Û¤v¹ï¤­flag¼g¶i­º­¶index.html
-¥D¿ì½ü¨µ15¬í¤@¦¸->1¥x1¤ÀÄÁ1¤À
-¶¤¦W¡G90CM (4th)
-¦@¥´¤U11¥xserver
-1. Vul mailÃD¡G *5
-¸Ñ¡Ghttps://github.com/opsxcq/exploit-CVE-2016-10033 
-2. b374kÃD¡G *1
-¸Ñ¡G®z±K½X¡A¦³«È»s¤Æ¹L¨S§ï±K¥\¯à¡A­n¦Û¤v§ïsource code¡A
-³t¸Ñ->¶i¥h«á»°§Ö¼g­º­¶µM«á§âb374k¬å±¼XDDD
-3. Bobby BlogÃD¡G *4
-¸Ñ¡G´¶³q±b¤á¸Õ¤F¶W¤[´N¬O¨S¿ìªk¼gÀÉ¡A³Ì«á¥ÎFTPÃzAdministrator±K½X(·í®ÉÁÙ¸ò²Ä¤@¦W·m¥D¾÷¡A«Ü¨ë¿Eªº!!!)
-²Ä¤@¦W¸Ñªk¡G´¶³quser¶iFTP¤Wasp½X
-4. rdpÃD¡G *1
-¸Ñ¡G§Q¥Î3.Ãz¥XªººÞ²z­ûÅv­­±K½X¥iµnadmin¡AµM«á­n§â¸ê®Æ§¨Åv­­¥´¶}§Y¥i¶ixampp§ï­º­¶
---
-5. Try itÃD¡GÀ³¸Ó¬OHoneypot¡AFTPÀH·N±b±K¥i¶i¡A¦ý§ÚÁÙ¬O¥Î«e­±Ãzªºadmin±K½X¶i¥h¡A³o®É¥i¥H¼gÀÉ¡Apwd¦b/¥Ø¿ý¡AµM«á§ä¤£¨ì­º­¶©ñ¦b­þ¡Als -la /©³¤U³£ªÅªº= =....©ó¬O¦Û¤v³Ðwwwroot/¼gindex¡A³Ì«áflag¬O¥X²{¦bhttps­º­¶¡A¤£¹L¥D¿ì¨S±½https­º­¶©Ò¥H¨S¤ÀQ_Q
---
-­Ó¤H¤ß±o·P·Q¡G
-º¡¦nª±ªº¡A²Ä¤@¦¸°Ñ¥[koth¡A¤@¶}©lÁÙ¤£ª¾¹D­n·F¹À¡A«á¨Óº¥¤J¨Î¹Ò¡A¦ý¬O«e­±¶¤¥î¤@¶}©l¯¸»â¤Ó¤[¨ê¤Ó¦h¤À³Ì«á°l¤£¤W¤F¡A±q§¾ªÑ¯à°l¨ì²Ä4º¡·P°ÊªºXDD
-¤À¤u¦X§@º¡­«­nªº¡A§Ú¨g§ä¬ð¯}ÂI¡A¦³¬ð¯}ÂI«á¥áµ¹¶¤¤Í¸Ñ¡A¥²­n®ÉÀ°¦£·m¡C
-¸gÅç¡B¹B®ð©M¤â³t©M¼ô½m«×«ÜÃöÁä¡A
-Å¥Lionbug»¡¦b·mrdp¥D¾÷®É¥L¦b§ï±K½X¦³¤H¤@ª½§â¥¦±±¨î¥xÃö±¼XDD
---
------------------------------------------------------------------------------------
-¥H¤U¬O¥´Å¥¨ìªº¸Ñªk¡G
-6. phpinfoÃD¡GFTPÃz¯}¥Î¬ªº|ªº±b¸¹Ãz¯}
-7. dockerÃD¡G¥Îdocker expolit ¥´§Ñ¤F­þ­Óport
-8. «X¤åÃD¡GFTPÃzuser±K½X
-9. cgi-binÃD¡Gshellshock
-10. xvwaÃD¡Gcommand inj /tmp¥i¼g¡A¦ý¬O¬O³Ì·sªºlinux kernalµLªk´£Åv¡A°£«D´¤¦³0day
-11. ¯d¨¥ªOhoneypotÃD¡G¨êflag
-12. SambaÃD¡Gmetaspolit¨êsmbº|¬}
-13. Strust2ÃD¡G¨êStrust2
-14. Wannacry¨º­ÓSMB¡Gmetaspolit¥´ªº
-15. kaliÃD¡G¤£ª¾¹D«ç¥´¦ýÅ¥»¡®z±K½X¡Groot / toor
-16. Apache­º­¶¡G¯Ê
-17. ¥¼ª¾
-18. ¥¼ª¾
-19. ¥¼ª¾
-20. ¥¼ª¾
+`CDXç¶²ç«™æ”»é˜²Write Up`
+å…±100å°serveræ•£è½åœ¨x.x.x.1~200
+è§€å¯Ÿå¤§æ¦‚æœ‰20ç¨®é¡Œç›®ï¼Œæ¯ç¨®éƒ½æœ‰5é¡Œ
+æ‹¿åˆ†æ–¹å¼ï¼šæŠŠè‡ªå·±å°äº”flagå¯«é€²é¦–é index.html
+ä¸»è¾¦è¼ªå·¡15ç§’ä¸€æ¬¡->1å°1åˆ†é˜1åˆ†
+
+éšŠåï¼š90CM (4th)
+å…±æ‰“ä¸‹11å°server
+
+
+1. Vul mailé¡Œï¼š *5
+è§£ï¼šhttps://github.com/opsxcq/exploit-CVE-2016-10033 
+
+
+2. b374ké¡Œï¼š *1
+è§£ï¼šå¼±å¯†ç¢¼ï¼Œæœ‰å®¢è£½åŒ–éŽæ²’æ”¹å¯†åŠŸèƒ½ï¼Œè¦è‡ªå·±æ”¹source codeï¼Œ
+é€Ÿè§£->é€²åŽ»å¾Œè¶•å¿«å¯«é¦–é ç„¶å¾ŒæŠŠb374kç æŽ‰XDDD
+
+
+3. Bobby Blogé¡Œï¼š *4
+è§£ï¼šæ™®é€šå¸³æˆ¶è©¦äº†è¶…ä¹…å°±æ˜¯æ²’è¾¦æ³•å¯«æª”ï¼Œæœ€å¾Œç”¨FTPçˆ†Administratorå¯†ç¢¼(ç•¶æ™‚é‚„è·Ÿç¬¬ä¸€åæ¶ä¸»æ©Ÿï¼Œå¾ˆåˆºæ¿€çš„!!!)
+ç¬¬ä¸€åè§£æ³•ï¼šæ™®é€šuseré€²FTPä¸Šaspç¢¼
+
+
+4. rdpé¡Œï¼š *1
+è§£ï¼šåˆ©ç”¨3.çˆ†å‡ºçš„ç®¡ç†å“¡æ¬Šé™å¯†ç¢¼å¯ç™»adminï¼Œç„¶å¾Œè¦æŠŠè³‡æ–™å¤¾æ¬Šé™æ‰“é–‹å³å¯é€²xamppæ”¹é¦–é 
+
+
+5. Try ité¡Œï¼šæ‡‰è©²æ˜¯Honeypotï¼ŒFTPéš¨æ„å¸³å¯†å¯é€²ï¼Œä½†æˆ‘é‚„æ˜¯ç”¨å‰é¢çˆ†çš„adminå¯†ç¢¼é€²åŽ»ï¼Œé€™æ™‚å¯ä»¥å¯«æª”ï¼Œpwdåœ¨/ç›®éŒ„ï¼Œç„¶å¾Œæ‰¾ä¸åˆ°é¦–é æ”¾åœ¨å“ªï¼Œls -la /åº•ä¸‹éƒ½ç©ºçš„= =....æ–¼æ˜¯è‡ªå·±å‰µwwwroot/å¯«indexï¼Œæœ€å¾Œflagæ˜¯å‡ºç¾åœ¨httpsé¦–é ï¼Œä¸éŽä¸»è¾¦æ²’æŽƒhttpsé¦–é æ‰€ä»¥æ²’åˆ†Q_Q
+
+
+å€‹äººå¿ƒå¾—æ„Ÿæƒ³ï¼š
+æ»¿å¥½çŽ©çš„ï¼Œç¬¬ä¸€æ¬¡åƒåŠ kothï¼Œä¸€é–‹å§‹é‚„ä¸çŸ¥é“è¦å¹¹å˜›ï¼Œå¾Œä¾†æ¼¸å…¥ä½³å¢ƒï¼Œä½†æ˜¯å‰é¢éšŠä¼ä¸€é–‹å§‹ç«™é ˜å¤ªä¹…åˆ·å¤ªå¤šåˆ†æœ€å¾Œè¿½ä¸ä¸Šäº†ï¼Œå¾žå±è‚¡èƒ½è¿½åˆ°ç¬¬4æ»¿æ„Ÿå‹•çš„XDD
+åˆ†å·¥åˆä½œæ»¿é‡è¦çš„ï¼Œæˆ‘ç‹‚æ‰¾çªç ´é»žï¼Œæœ‰çªç ´é»žå¾Œä¸Ÿçµ¦éšŠå‹è§£ï¼Œå¿…è¦æ™‚å¹«å¿™æ¶ã€‚
+ç¶“é©—ã€é‹æ°£å’Œæ‰‹é€Ÿå’Œç†Ÿç·´åº¦å¾ˆé—œéµï¼Œ
+è½Lionbugèªªåœ¨æ¶rdpä¸»æ©Ÿæ™‚ä»–åœ¨æ”¹å¯†ç¢¼æœ‰äººä¸€ç›´æŠŠå®ƒæŽ§åˆ¶å°é—œæŽ‰XDD
+
+
+ä»¥ä¸‹æ˜¯æ‰“è½åˆ°çš„è§£æ³•ï¼š
+
+
+6. phpinfoé¡Œï¼šFTPçˆ†ç ´ç”¨æ´©æ¼çš„å¸³è™Ÿçˆ†ç ´
+
+
+7. dockeré¡Œï¼šç”¨docker expolit æ‰“å¿˜äº†å“ªå€‹port
+
+
+8. ä¿„æ–‡é¡Œï¼šFTPçˆ†userå¯†ç¢¼
+
+
+9. cgi-biné¡Œï¼šshellshock
+
+
+10. xvwaé¡Œï¼šcommand inj /tmpå¯å¯«ï¼Œä½†æ˜¯æ˜¯æœ€æ–°çš„linux kernalç„¡æ³•ææ¬Šï¼Œé™¤éžæ¡æœ‰0day
+
+
+11. ç•™è¨€æ¿honeypoté¡Œï¼šåˆ·flag
+
+
+12. Sambaé¡Œï¼šmetaspolitåˆ·smbæ¼æ´ž
+
+
+13. Strust2é¡Œï¼šåˆ·Strust2
+
+
+14. Wannacryé‚£å€‹SMBï¼šmetaspolitæ‰“çš„
+
+
+15. kalié¡Œï¼šä¸çŸ¥é“æ€Žæ‰“ä½†è½èªªå¼±å¯†ç¢¼ï¼šroot / toor
+
+
+16. Apacheé¦–é ï¼šç¼º
+
+
+17. æœªçŸ¥
+
+
+18. æœªçŸ¥
+
+
+19. æœªçŸ¥
+
+
+20. æœªçŸ¥
+
