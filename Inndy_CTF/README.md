@@ -2,7 +2,7 @@
 
 pwntools起手式
 
-<code>
+```
 from pwn import *
 
 # 0xcafebabe
@@ -22,5 +22,4 @@ payload += shell
 r.sendline(payload)
 
 r.interactive()
-
-</code>
+```
