@@ -21,8 +21,7 @@ echo $((0x48-0x14))
 
 ```
 from pwn import *
-
-<font color="red"># 0xcafebabe<font>
+# 0xcafebabe
 
 r = remote('ip', 'port')
 
