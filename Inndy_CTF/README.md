@@ -3,15 +3,16 @@
 
 試bof字串：
 
-```>>> cyclic(52)
+```
+>>> cyclic(52)
 
-'aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaa'```
+'aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaa'
 
-```>>> hex(0x21DD09EC - 0x10101010)
+>>> hex(0x21DD09EC - 0x10101010)
 
-'0x11ccf9dc'```
+'0x11ccf9dc'
 
-```echo $((0x48-0x14))
+echo $((0x48-0x14))
 
 52```
 
