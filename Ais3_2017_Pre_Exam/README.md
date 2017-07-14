@@ -178,7 +178,6 @@ AIS3{A XOR B XOR A EQUALS B}
 ### Crypto2
 > 感謝楊大哥提示
 
-![img](./ecb.jpg)
 
 ```python
 #source code:
