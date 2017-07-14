@@ -28,7 +28,9 @@
 ### Misc4
 - 參考這篇:https://github.com/victor-li/pwnable.kr-write-ups/blob/master/cmd2/cmd2.md
 ![img](./misc4.jpg)
+
 ```ais3{I_AM_NOT_FAMALIAR_WITH_IT}```
+--- 
 
 ### Web1 
 ```
@@ -56,10 +58,8 @@ AIS3{Cute_Snoopy_is_back!!?!?!!?}
 
 - 參考這篇：https://0x1337seichi.wordpress.com/2015/03/15/codgate-2015-ctf-quals-owlur-writeup-web-200/
 
-```
-The flag is AIS3{RCEEEEEEEEE_is_soooooooooo_funnnnnnnnnnnn!?!!?!!!}
-```
-
+```The flag is AIS3{RCEEEEEEEEE_is_soooooooooo_funnnnnnnnnnnn!?!!?!!!}```
+---
 
 ### Rev1
 OllyDbg打開找關鍵字F2下斷點，之後F8慢慢跟，答案在右下角。
@@ -79,6 +79,8 @@ AIS3{h0w d1d y0u s3e it}
 ### Rev4
 
 - GG
+
+--- 
 
 ### Pwn1
 
@@ -139,6 +141,7 @@ magic = ' \x10\x18\x02B\r\n;\x04\x02\x05.\x10.\x02\x18\x1c\x01\x1dB.\x1e\x07\x14
 Qais3|{Just_a_simpl3_overflow}
 \x00\x00�YHv�\x00\x00|{
 ```
+```ais3{Just_a_simpl3_overflow}```
 
 ### Pwn3
 
@@ -147,6 +150,8 @@ Qais3|{Just_a_simpl3_overflow}
 ### Pwn4
 
 - GG
+
+---
 
 ### Crypto1
 
@@ -260,9 +265,7 @@ for i in xrange(0, sys.maxint, 1):
         r = requests.post('https://quiz.ais3.org:32670/', data={'username': fuck , 'password': shit}); #Flag1
         print r.text
         break
-#Flag1: AIS3{SHA1111l111111_is_broken}</br>
-#Flag2: AIS3{Any_limitation_can_not_stop_me!!!!!l!!!!}
-
 ```
-
+```Flag1: AIS3{SHA1111l111111_is_broken}</br>```
+```Flag2: AIS3{Any_limitation_can_not_stop_me!!!!!l!!!!}```
 
