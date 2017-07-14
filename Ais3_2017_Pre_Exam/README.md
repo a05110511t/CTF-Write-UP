@@ -62,6 +62,7 @@ The flag is AIS3{RCEEEEEEEEE_is_soooooooooo_funnnnnnnnnnnn!?!!?!!!}
 
 
 ### Rev1
+OllyDbg打開找關鍵字F2下斷點，之後F8慢慢跟，答案在右下角。
 ![img](./rev1.jpg)
 ```
 AIS3{h0w d1d y0u s3e it}
@@ -169,6 +170,7 @@ AIS3{A XOR B XOR A EQUALS B}
 
 ### Crypto2
 > 感謝楊大哥提示
+
 ![img](./ecb.jpg)
 
 ```python
