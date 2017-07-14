@@ -12,6 +12,7 @@
 
 以下Write Up
 ---
+
 ### Misc1 
 - 送分題。
 
@@ -19,6 +20,7 @@
 - 題目一個誤導，線索藏在Header中，可以透過FireFox的Firebug插件看到，拿到圖後用StegoSolve解。
 ![img](./nosudoku.png)
 ![img](./pika.png)
+```Ais3{pika}```
 
 ### Misc3
 - 待研究
@@ -26,6 +28,7 @@
 ### Misc4
 - 參考這篇:https://github.com/victor-li/pwnable.kr-write-ups/blob/master/cmd2/cmd2.md
 ![img](./misc4.jpg)
+```ais3{I_AM_NOT_FAMALIAR_WITH_IT}```
 
 ### Web1 
 ```
@@ -49,8 +52,7 @@ AIS3{Cute_Snoopy_is_back!!?!?!!?}
 ```
 
 ### Web4
-透過Web3的解答可得知```https://quiz.ais3.org:23545/?p=uploaddddddd```
-可上傳圖片，原始碼中禁止了一些用法，但可以透過phar://去解壓縮導致rce。
+透過Web3的解答可得知上傳點```https://quiz.ais3.org:23545/?p=uploaddddddd```可上傳圖片，而原始碼中禁止了一些用法，但可以透過phar://去解壓縮導致rce。
 
 - 參考這篇：https://0x1337seichi.wordpress.com/2015/03/15/codgate-2015-ctf-quals-owlur-writeup-web-200/
 
@@ -102,7 +104,6 @@ ais3{4nn0y1n9_Wh1t3_SpAcE_CHAR4CTERS}
 ``` 
 
 ### Pwn2
-
 ```python
 from pwn import *
 
@@ -165,7 +166,7 @@ AIS3{A XOR B XOR A EQUALS B}
 ```
 
 ### Crypto2
-
+> 感謝楊大哥提示
 ![img](./ecb.jpg)
 
 ```python
@@ -223,6 +224,20 @@ print 'key = ', key
 print 'key_b64_en = ', base64.b64encode(key)
 
 r.interactive()
+```
+```
+(CTF)ais@ais-VirtualBox:~/Desktop/CTF/Ais3$ WaCbgzB5casnMjNn9it0XKFla42tcnIFcK3CMGGtQdmAdQi3w6UjO5uy/jNRrNOUVSgJjt0nb8SzdKu/680B5Q==^C
+(CTF)ais@ais-VirtualBox:~/Desktop/CTF/Ais3$ nc quiz.ais3.org 3212
+Select your choice:
+0 : Register
+1 : Login
+1
+Give me your token: WaCbgzB5casnMjNn9it0XKFla42tcnIFcK3CMGGtQdmAdQi3w6UjO5uy/jNRrNOUVSgJjt0nb8SzdKu/680B5Q==
+Give me your username: aaaaa
+Give me your password: aaaa
+Hello aaaaa
+Hi admin:
+ais3{ABCDEFGHIJKLMNOPQRSTUVWXYZZZZZZZ}
 ```
 
 ### Crypto3 + 4
